@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Survey Form</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        th, td {
+            padding: 10px;
+        }
+        label {
+            margin-right: 20px;
+        }
+        button {
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Food Consumption Survey</h1>
+    <h5>Please fill the details below honestly.</h5>
+
+    <form method="post">
+        <table border="1">
+
+            <tr>
+                <th><label for="user">Name:</label></th>
+                <td><input type="text" name="user" id="user" required></td>
+            </tr>
+
+            <tr>
+                <th><label for="age">Age:</label></th>
+                <td><input type="number" name="age" id="age" required></td>
+            </tr>
+
+            <tr>
+                <th>Location:</th>
+                <td>
+                    <label><input type="radio" name="location" value="Urban">Urban</label>
+                    <label><input type="radio" name="location" value="Suburban">Suburban</label>
+                    <label><input type="radio" name="location" value="Rural">Rural</label>
+                </td>
+            </tr>
+
+            <tr>
+                <th colspan="2">How often do you...</th>
+            </tr>
+
+            <tr>
+                <th>You prepare your own meals:</th>
+                <td>
+                    <label><input type="radio" name="you_prepare" value="Never">Never</label>
+                    <label><input type="radio" name="you_prepare" value="Rarely">Rarely</label>
+                    <label><input type="radio" name="you_prepare" value="Sometimes">Sometimes</label>
+                    <label><input type="radio" name="you_prepare" value="Often">Often</label>
+                    <label><input type="radio" name="you_prepare" value="Usually">Usually</label>
+                    <label><input type="radio" name="you_prepare" value="Always">Always</label>
+                </td>
+            </tr>
+
+            <tr>
+                <th>You eat out:</th>
+                <td>
+                    <label><input type="radio" name="you_eat_out" value="Never">Never</label>
+                    <label><input type="radio" name="you_eat_out" value="Rarely">Rarely</label>
+                    <label><input type="radio" name="you_eat_out" value="Sometimes">Sometimes</label>
+                    <label><input type="radio" name="you_eat_out" value="Often">Often</label>
+                    <label><input type="radio" name="you_eat_out" value="Usually">Usually</label>
+                    <label><input type="radio" name="you_eat_out" value="Always">Always</label>
+                </td>
+            </tr>
+
+            <tr>
+                <th>You order food for home:</th>
+                <td>
+                    <label><input type="radio" name="you_order_food" value="Never">Never</label>
+                    <label><input type="radio" name="you_order_food" value="Rarely">Rarely</label>
+                    <label><input type="radio" name="you_order_food" value="Sometimes">Sometimes</label>
+                    <label><input type="radio" name="you_order_food" value="Often">Often</label>
+                    <label><input type="radio" name="you_order_food" value="Usually">Usually</label>
+                    <label><input type="radio" name="you_order_food" value="Always">Always</label>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Food Origin Preferences:</th>
+                <td>
+                    <label><input type="checkbox" name="food_origin_preference" value="Indian">Indian</label>
+                    <label><input type="checkbox" name="food_origin_preference" value="Italian">Italian</label>
+                    <label><input type="checkbox" name="food_origin_preference" value="Chinese">Chinese</label>
+                    <label><input type="checkbox" name="food_origin_preference" value="Mexican">Mexican</label>
+                    <label><input type="checkbox" name="food_origin_preference" value="Thai">Thai</label>
+                    <label><input type="checkbox" name="food_origin_preference" value="Japanese">Japanese</label>
+                    <label><input type="checkbox" name="food_origin_preference" value="Continental">Continental</label>
+                    <label><input type="checkbox" name="food_origin_preference" value="Other">Other</label>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Would you go vegan?</th>
+                <td>
+                    <label><input type="radio" name="vegan" value="Yes">Yes</label>
+                    <label><input type="radio" name="vegan" value="No">No</label>
+                </td>
+            </tr>
+
+            <tr>
+                <th colspan="2">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </th>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <table border="1">
+                        <tr>
+                            <th>Nested Info 1</th>
+                            <td>Details here</td>
+                        </tr>
+                        <tr>
+                            <th>Nested Info 2</th>
+                            <td>Details here</td>
+                        </tr>
+                        <tr>
+                            <th>Nested Info 3</th>
+                            <td>Details here</td>
+                        </tr>
+                        <tr>
+                            <th>Nested Info 4</th>
+                            <td>Details here</td>
+                        </tr>
+                        <tr>
+                            <th>Nested Info 5</th>
+                            <td>Details here</td>
+                        </tr>
+                        <tr>
+                            <th>Nested Info 6</th>
+                            <td>Details here</td>
+                        </tr>
+                        <tr>
+                            <th>Nested Info 7</th>
+                            <td>Details here</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+</html>
